@@ -61,6 +61,12 @@
                     "name": "Package",
                     "visible_on_add": false,
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "dielectric",
+                    "name": "Dielectric",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
                 }
             ],
             "properties": {
@@ -73,7 +79,8 @@
                 "mpn": "mpn",
                 "lcsc": "lcsc",
                 "rating": "rating",
-                "package": "package"
+                "package": "package",
+                "dielectric": "dielectric"
             }
         },
         {

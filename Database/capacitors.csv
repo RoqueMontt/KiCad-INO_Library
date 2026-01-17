@@ -1,48 +1,48 @@
-part_id,value,symbol,footprint,description,mfg,mpn,lcsc,rating,package
-CAP-001,22n,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,22nF ±10% 50V Ceramic Capacitor X7R 0402,muRata,GRM155R71H223KA12D,C77023,50V 10%,0402
-CAP-002,10n,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,10nF ±5% 50V Ceramic Capacitor C0G 0603,muRata,GRM1885C1H103JA01D,C85973,50V 5%,0603
-CAP-003,10n,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,10nF ±5% 25V Ceramic Capacitor C0G 0402,muRata,GRM1555C1E103JE01D,C3855387,25V 5%,0402
-CAP-004,4n7,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,4.7nF ±5% 50V Ceramic Capacitor C0G 0603,muRata,GRM1885C1H472JA01D,C85980,50V 5%,0603
-CAP-005,4n7,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,4.7nF ±5% 50V Ceramic Capacitor C0G 0402,muRata,GRM1555C1H472JE01D,C1518204,50V 5%,0402
-CAP-006,2n2,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,2.2nF ±5% 50V Ceramic Capacitor C0G 0603,muRata,GRM1885C1H222JA01D,C77033,50V 5%,0603
-CAP-007,2n2,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,2.2nF ±2% 50V Ceramic Capacitor C0G 0402,muRata,GRM1555C1H222GA01D,C2987940,50V 2%,0402
-CAP-008,1n5,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,1.5nF ±5% 50V Ceramic Capacitor C0G 0603,muRata,GRM1885C1H152JA01D,C162204,50V 5%,0603
-CAP-009,1n5,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,1.5nF ±5% 50V Ceramic Capacitor C0G 0402,muRata,GRM1555C1H152JA01D,C668348,50V 5%,0402
-CAP-010,1n,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,1nF ±5% 50V Ceramic Capacitor C0G 0603,muRata,GRM1885C1H102JA01D,C77026,50V 5%,0603
-CAP-011,1n,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,1nF ±5% 50V Ceramic Capacitor C0G 0402,muRata,GRM1555C1H102JA01D,C76947,50V 5%,0402
-CAP-012,470p,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,470pF ±5% 50V Ceramic Capacitor C0G 0603,muRata,GRM1885C1H471JA01D,C85979,50V 5%,0603
-CAP-013,470p,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,470pF ±5% 50V Ceramic Capacitor C0G 0402,muRata,GRM1555C1H471JA01D,C76971,50V 5%,0402
-CAP-014,220p,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,220pF ±5% 50V Ceramic Capacitor C0G 0603,Samsung Electro-Mechanics,CL10C221JB8NNNC,C27675,50V 5%,0603
-CAP-015,220p,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,220pF ±5% 50V Ceramic Capacitor C0G 0402,muRata,GRM1555C1H221JA01D,C71693,50V 5%,0402
-CAP-016,100p,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,100pF ±5% 50V Ceramic Capacitor C0G 0603,Samsung Electro-Mechanics,CL10C101JB8NNNC,C14858,50V 5%,0603
-CAP-017,100p,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,100pF ±5% 50V Ceramic Capacitor C0G 0402,muRata,GCM1555C1H101JA16D,C126492,50V 5%,0402
-CAP-018,18p,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,18pF ±5% 50V Ceramic Capacitor C0G 0402,muRata,GRM1555C1H180JA01D,C33149,50V 5%,0402
-CAP-019,15p,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,15pF ±5% 50V Ceramic Capacitor C0G 0402,muRata,GRM1555C1H150JA01D,C76950,50V 5%,0402
-CAP-020,12p,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,12pF ±5% 50V Ceramic Capacitor C0G 0402,muRata,GRM1555C1H120JA01D,C76948,50V 5%,0402
-CAP-021,22n,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,22nF ±10% 50V Ceramic Capacitor X7R 0603,Samsung Electro-Mechanics,CL10B223KB8NNNC,C21122,50V 10%,0603
-CAP-022,47n,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,47nF ±10% 50V Ceramic Capacitor X7R 0402,Samsung Electro-Mechanics,CL05B473KB5VPNC,C307339,50V 10%,0402
-CAP-023,47n,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,47nF ±10% 50V Ceramic Capacitor X7R 0603,Samsung Electro-Mechanics,CL10B473KB8NNNC,C1622,50V 10%,0603
-CAP-024,100n,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,100nF ±10% 50V Ceramic Capacitor X7R 0402,Samsung Electro-Mechanics,CL05B104KB54PNC,C307331,50V 10%,0402
-CAP-025,100n,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,100nF ±10% 50V Ceramic Capacitor X7R 0603,Samsung Electro-Mechanics,CL10B104KB8NNNC,C1591,50V 10%,0603
-CAP-026,220n,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,220nF ±10% 50V Ceramic Capacitor X5R 0402,muRata,GRM155R61H224KE01D,C5159775,50V 10%,0402
-CAP-027,220n,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,220nF ±10% 50V Ceramic Capacitor X7R 0603,Samsung Electro-Mechanics,CL10B224KB8NNNC,C64705,50V 10%,0603
-CAP-028,1u,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,1uF ±10% 25V Ceramic Capacitor X5R 0402,Samsung Electro-Mechanics,CL05A105KA5NQNC,C52923,25V 10%,0402
-CAP-029,1u,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,1uF ±10% 50V Ceramic Capacitor X5R 0603,Samsung Electro-Mechanics,CL10A105KB8NNNC,C15849,50V 10%,0603
-CAP-030,1u,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,1uF ±10% 35V Ceramic Capacitor X5R 0402,Samsung Electro-Mechanics,CL05A105KL5NRNC,C307413,35V 10%,0402
-CAP-031,2u2,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,2.2uF ±10% 25V Ceramic Capacitor X5R 0402,Samsung Electro-Mechanics,CL05A225KA5NUNC,C307418,25V 10%,0402
-CAP-032,2u2,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,2.2uF ±10% 50V Ceramic Capacitor X5R 0603,muRata,GRM188R61H225KE11D,C162273,50V 10%,0603
-CAP-033,4u7,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,4.7uF ±10% 25V Ceramic Capacitor X5R 0603,Samsung Electro-Mechanics,CL10A475KA8NQNC,C69335,25V 10%,0603
-CAP-034,4u7,INO_Symbols:C,INO_Footprints:C_0805_2012Metric,4.7uF ±10% 50V Ceramic Capacitor X5R 0805,Samsung Electro-Mechanics,CL21A475KBQNNNE,C98192,50V 10%,0805
-CAP-035,10u,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,10uF ±10% 25V Ceramic Capacitor X5R 0603,muRata,GRM188R61E106KA73D,C344022,25V 10%,0603
-CAP-036,10u,INO_Symbols:C,INO_Footprints:C_0805_2012Metric,10uF ±10% 50V Ceramic Capacitor X5R 0805,muRata,GRM21BR61H106KE43L,C440198,50V 10%,0805
-CAP-037,22u,INO_Symbols:C,INO_Footprints:C_0805_2012Metric,22uF ±20% 25V Ceramic Capacitor X5R 0805,Samsung Electro-Mechanics,CL21A226MAQNNNE,C45783,25V 20%,0805
-CAP-038,22u,INO_Symbols:C,INO_Footprints:C_1206_3216Metric,22uF ±10% 25V Ceramic Capacitor X5R 1206,muRata,GRM31CR61E226KE15L,C77091,25V 10%,1206
-CAP-039,47u,INO_Symbols:C_Polarized,INO_Footprints:CP_Elec_6.3x5.8,47uF ±20% 35V Aluminum Electrolytic Capacitors 2000hrs@105℃,PANASONIC,EEEFP1V470AP,C401754,35V 20%,"SMD,D6.3xL5.8mm"
-CAP-040,100u,INO_Symbols:C_Polarized,INO_Footprints:CP_Elec_6.3x5.8,100uF ±20% 35V Aluminum Electrolytic Capacitors 2000hrs@105℃,Rubycon,35TZV100M6.3X8,C88744,35V 20%,"SMD,D6.3xL8mm"
-CAP-041,100u,INO_Symbols:C_Polarized,INO_Footprints:CP_Elec_5x5.7,100uF ±20% 16V Aluminum Electrolytic Capacitors 3000hrs@105℃,HRK,GVM1C107M0506CNVC,C2983400,16V 20%,"SMD,D5xL5.7mm"
-CAP-042,220u,INO_Symbols:C_Polarized,INO_Footprints:CP_Elec_6.3x5.8,220uF ±20% 16V Aluminum Electrolytic Capacitors 2000hrs@105℃,PANASONIC,EEEFT1C221AP,C178588,16V 20%,"SMD,D6.3xL5.8mm"
-CAP-043,220u,INO_Symbols:C_Polarized,INO_Footprints:CP_Elec_6.3x7.7,220uF ±20% 25V Aluminum Electrolytic Capacitors 2000hrs@105℃,PANASONIC,EEEFTE221XAP,C190724,25V 20%,"SMD,D6.3xL7.7mm"
-CAP-044,220u,INO_Symbols:C_Polarized,INO_Footprints:CP_Elec_8x10.5,220uF ±20% 35V Aluminum Electrolytic Capacitors 2000hrs@105℃,HRK,GVZ1V227M0810CNVC,C2983389,35V 20%,"SMD,D8xL10.5mm"
-CAP-045,330u,INO_Symbols:C_Polarized,INO_Footprints:CP_Elec_6.3x7.7,330uF ±20% 16V Aluminum Electrolytic Capacitors 2000hrs@105℃,PANASONIC,EEEFTC331XAP,C413522,16V 20%,"SMD,D6.3xL7.7mm"
-CAP-046,470u,INO_Symbols:C_Polarized,INO_Footprints:CP_Elec_6.3x7.7,470uF ±20% 16V Aluminum Electrolytic Capacitors 2000hrs@105℃,JIERR,JVJ16V470M6x8,C46550400,16V 20%,"SMD,D6.3xL7.7mm"
-CAP-047,22p,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,22pF ±5% 50V Ceramic Capacitor C0G 0402,Samsung Electro-Mechanics,CL05C220JB5NNNC,C70464,50V 5%,0402
+part_id,value,symbol,footprint,description,mfg,mpn,lcsc,rating,package,dielectric
+CAP-001,22n,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,22nF ±10% 50V Ceramic Capacitor X7R 0402,muRata,GRM155R71H223KA12D,C77023,50V 10%,402,X7R
+CAP-002,10n,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,10nF ±5% 50V Ceramic Capacitor C0G 0603,muRata,GRM1885C1H103JA01D,C85973,50V 5%,603,C0G
+CAP-003,10n,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,10nF ±5% 25V Ceramic Capacitor C0G 0402,muRata,GRM1555C1E103JE01D,C3855387,25V 5%,402,C0G
+CAP-004,4n7,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,4.7nF ±5% 50V Ceramic Capacitor C0G 0603,muRata,GRM1885C1H472JA01D,C85980,50V 5%,603,C0G
+CAP-005,4n7,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,4.7nF ±5% 50V Ceramic Capacitor C0G 0402,muRata,GRM1555C1H472JE01D,C1518204,50V 5%,402,C0G
+CAP-006,2n2,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,2.2nF ±5% 50V Ceramic Capacitor C0G 0603,muRata,GRM1885C1H222JA01D,C77033,50V 5%,603,C0G
+CAP-007,2n2,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,2.2nF ±2% 50V Ceramic Capacitor C0G 0402,muRata,GRM1555C1H222GA01D,C2987940,50V 2%,402,C0G
+CAP-008,1n5,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,1.5nF ±5% 50V Ceramic Capacitor C0G 0603,muRata,GRM1885C1H152JA01D,C162204,50V 5%,603,C0G
+CAP-009,1n5,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,1.5nF ±5% 50V Ceramic Capacitor C0G 0402,muRata,GRM1555C1H152JA01D,C668348,50V 5%,402,C0G
+CAP-010,1n,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,1nF ±5% 50V Ceramic Capacitor C0G 0603,muRata,GRM1885C1H102JA01D,C77026,50V 5%,603,C0G
+CAP-011,1n,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,1nF ±5% 50V Ceramic Capacitor C0G 0402,muRata,GRM1555C1H102JA01D,C76947,50V 5%,402,C0G
+CAP-012,470p,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,470pF ±5% 50V Ceramic Capacitor C0G 0603,muRata,GRM1885C1H471JA01D,C85979,50V 5%,603,C0G
+CAP-013,470p,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,470pF ±5% 50V Ceramic Capacitor C0G 0402,muRata,GRM1555C1H471JA01D,C76971,50V 5%,402,C0G
+CAP-014,220p,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,220pF ±5% 50V Ceramic Capacitor C0G 0603,Samsung Electro-Mechanics,CL10C221JB8NNNC,C27675,50V 5%,603,C0G
+CAP-015,220p,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,220pF ±5% 50V Ceramic Capacitor C0G 0402,muRata,GRM1555C1H221JA01D,C71693,50V 5%,402,C0G
+CAP-016,100p,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,100pF ±5% 50V Ceramic Capacitor C0G 0603,Samsung Electro-Mechanics,CL10C101JB8NNNC,C14858,50V 5%,603,C0G
+CAP-017,100p,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,100pF ±5% 50V Ceramic Capacitor C0G 0402,muRata,GCM1555C1H101JA16D,C126492,50V 5%,402,C0G
+CAP-018,18p,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,18pF ±5% 50V Ceramic Capacitor C0G 0402,muRata,GRM1555C1H180JA01D,C33149,50V 5%,402,C0G
+CAP-019,15p,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,15pF ±5% 50V Ceramic Capacitor C0G 0402,muRata,GRM1555C1H150JA01D,C76950,50V 5%,402,C0G
+CAP-020,12p,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,12pF ±5% 50V Ceramic Capacitor C0G 0402,muRata,GRM1555C1H120JA01D,C76948,50V 5%,402,C0G
+CAP-021,22n,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,22nF ±10% 50V Ceramic Capacitor X7R 0603,Samsung Electro-Mechanics,CL10B223KB8NNNC,C21122,50V 10%,603,
+CAP-022,47n,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,47nF ±10% 50V Ceramic Capacitor X7R 0402,Samsung Electro-Mechanics,CL05B473KB5VPNC,C307339,50V 10%,402,
+CAP-023,47n,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,47nF ±10% 50V Ceramic Capacitor X7R 0603,Samsung Electro-Mechanics,CL10B473KB8NNNC,C1622,50V 10%,603,
+CAP-024,100n,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,100nF ±10% 50V Ceramic Capacitor X7R 0402,Samsung Electro-Mechanics,CL05B104KB54PNC,C307331,50V 10%,402,
+CAP-025,100n,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,100nF ±10% 50V Ceramic Capacitor X7R 0603,Samsung Electro-Mechanics,CL10B104KB8NNNC,C1591,50V 10%,603,
+CAP-026,220n,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,220nF ±10% 50V Ceramic Capacitor X5R 0402,muRata,GRM155R61H224KE01D,C5159775,50V 10%,402,
+CAP-027,220n,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,220nF ±10% 50V Ceramic Capacitor X7R 0603,Samsung Electro-Mechanics,CL10B224KB8NNNC,C64705,50V 10%,603,
+CAP-028,1u,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,1uF ±10% 25V Ceramic Capacitor X5R 0402,Samsung Electro-Mechanics,CL05A105KA5NQNC,C52923,25V 10%,402,
+CAP-029,1u,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,1uF ±10% 50V Ceramic Capacitor X5R 0603,Samsung Electro-Mechanics,CL10A105KB8NNNC,C15849,50V 10%,603,
+CAP-030,1u,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,1uF ±10% 35V Ceramic Capacitor X5R 0402,Samsung Electro-Mechanics,CL05A105KL5NRNC,C307413,35V 10%,402,
+CAP-031,2u2,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,2.2uF ±10% 25V Ceramic Capacitor X5R 0402,Samsung Electro-Mechanics,CL05A225KA5NUNC,C307418,25V 10%,402,
+CAP-032,2u2,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,2.2uF ±10% 50V Ceramic Capacitor X5R 0603,muRata,GRM188R61H225KE11D,C162273,50V 10%,603,
+CAP-033,4u7,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,4.7uF ±10% 25V Ceramic Capacitor X5R 0603,Samsung Electro-Mechanics,CL10A475KA8NQNC,C69335,25V 10%,603,
+CAP-034,4u7,INO_Symbols:C,INO_Footprints:C_0805_2012Metric,4.7uF ±10% 50V Ceramic Capacitor X5R 0805,Samsung Electro-Mechanics,CL21A475KBQNNNE,C98192,50V 10%,805,
+CAP-035,10u,INO_Symbols:C,INO_Footprints:C_0603_1608Metric,10uF ±10% 25V Ceramic Capacitor X5R 0603,muRata,GRM188R61E106KA73D,C344022,25V 10%,603,
+CAP-036,10u,INO_Symbols:C,INO_Footprints:C_0805_2012Metric,10uF ±10% 50V Ceramic Capacitor X5R 0805,muRata,GRM21BR61H106KE43L,C440198,50V 10%,805,
+CAP-037,22u,INO_Symbols:C,INO_Footprints:C_0805_2012Metric,22uF ±20% 25V Ceramic Capacitor X5R 0805,Samsung Electro-Mechanics,CL21A226MAQNNNE,C45783,25V 20%,805,
+CAP-038,22u,INO_Symbols:C,INO_Footprints:C_1206_3216Metric,22uF ±10% 25V Ceramic Capacitor X5R 1206,muRata,GRM31CR61E226KE15L,C77091,25V 10%,1206,
+CAP-039,47u,INO_Symbols:C_Polarized,INO_Footprints:CP_Elec_6.3x5.8,47uF ±20% 35V Aluminum Electrolytic Capacitors 2000hrs@105℃,PANASONIC,EEEFP1V470AP,C401754,35V 20%,"SMD,D6.3xL5.8mm",
+CAP-040,100u,INO_Symbols:C_Polarized,INO_Footprints:CP_Elec_6.3x5.8,100uF ±20% 35V Aluminum Electrolytic Capacitors 2000hrs@105℃,Rubycon,35TZV100M6.3X8,C88744,35V 20%,"SMD,D6.3xL8mm",
+CAP-041,100u,INO_Symbols:C_Polarized,INO_Footprints:CP_Elec_5x5.7,100uF ±20% 16V Aluminum Electrolytic Capacitors 3000hrs@105℃,HRK,GVM1C107M0506CNVC,C2983400,16V 20%,"SMD,D5xL5.7mm",
+CAP-042,220u,INO_Symbols:C_Polarized,INO_Footprints:CP_Elec_6.3x5.8,220uF ±20% 16V Aluminum Electrolytic Capacitors 2000hrs@105℃,PANASONIC,EEEFT1C221AP,C178588,16V 20%,"SMD,D6.3xL5.8mm",
+CAP-043,220u,INO_Symbols:C_Polarized,INO_Footprints:CP_Elec_6.3x7.7,220uF ±20% 25V Aluminum Electrolytic Capacitors 2000hrs@105℃,PANASONIC,EEEFTE221XAP,C190724,25V 20%,"SMD,D6.3xL7.7mm",
+CAP-044,220u,INO_Symbols:C_Polarized,INO_Footprints:CP_Elec_8x10.5,220uF ±20% 35V Aluminum Electrolytic Capacitors 2000hrs@105℃,HRK,GVZ1V227M0810CNVC,C2983389,35V 20%,"SMD,D8xL10.5mm",
+CAP-045,330u,INO_Symbols:C_Polarized,INO_Footprints:CP_Elec_6.3x7.7,330uF ±20% 16V Aluminum Electrolytic Capacitors 2000hrs@105℃,PANASONIC,EEEFTC331XAP,C413522,16V 20%,"SMD,D6.3xL7.7mm",
+CAP-046,470u,INO_Symbols:C_Polarized,INO_Footprints:CP_Elec_6.3x7.7,470uF ±20% 16V Aluminum Electrolytic Capacitors 2000hrs@105℃,JIERR,JVJ16V470M6x8,C46550400,16V 20%,"SMD,D6.3xL7.7mm",
+CAP-047,22p,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,22pF ±5% 50V Ceramic Capacitor C0G 0402,Samsung Electro-Mechanics,CL05C220JB5NNNC,C70464,50V 5%,402,
