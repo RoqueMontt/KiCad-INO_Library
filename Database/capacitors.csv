@@ -45,3 +45,4 @@ CAP-043,220u,INO_Symbols:C_Polarized,INO_Footprints:CP_Elec_6.3x7.7,220uF ±20% 
 CAP-044,220u,INO_Symbols:C_Polarized,INO_Footprints:CP_Elec_8x10.5,220uF ±20% 35V Aluminum Electrolytic Capacitors 2000hrs@105℃,HRK,GVZ1V227M0810CNVC,C2983389,35V 20%,"SMD,D8xL10.5mm"
 CAP-045,330u,INO_Symbols:C_Polarized,INO_Footprints:CP_Elec_6.3x7.7,330uF ±20% 16V Aluminum Electrolytic Capacitors 2000hrs@105℃,PANASONIC,EEEFTC331XAP,C413522,16V 20%,"SMD,D6.3xL7.7mm"
 CAP-046,470u,INO_Symbols:C_Polarized,INO_Footprints:CP_Elec_6.3x7.7,470uF ±20% 16V Aluminum Electrolytic Capacitors 2000hrs@105℃,JIERR,JVJ16V470M6x8,C46550400,16V 20%,"SMD,D6.3xL7.7mm"
+CAP-047,22p,INO_Symbols:C,INO_Footprints:C_0402_1005Metric,22pF ±5% 50V Ceramic Capacitor C0G 0402,Samsung Electro-Mechanics,CL05C220JB5NNNC,C70464,50V 5%,0402
