@@ -1,0 +1,2 @@
+part_id,value,symbol,footprint,description,mfg,mpn,lcsc,package
+OSC-001,32.768kHz,Device:Crystal_GND24,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,Crystal Oscillator 12pF SMD3225-4P Crystals ROHS,HCI,XC32M4-32.768-F12NJDTL,C5119018,SMD3225-4P

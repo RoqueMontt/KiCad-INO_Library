@@ -161,6 +161,62 @@
             }
         },
         {
+            "name": "Osc",
+            "table": "osc",
+            "key": "part_id",
+            "symbols": "symbol",
+            "footprints": "footprint",
+            "fields": [
+                {
+                    "column": "value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "description",
+                    "name": "Description",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "mfg",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "mpn",
+                    "name": "MPN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "lcsc",
+                    "name": "LCSC",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                }
+            ],
+            "properties": {
+                "part_id": "part_id",
+                "Value": "value",
+                "symbol": "symbol",
+                "footprint": "footprint",
+                "description": "description",
+                "mfg": "mfg",
+                "mpn": "mpn",
+                "lcsc": "lcsc",
+                "package": "package"
+            }
+        },
+        {
             "name": "Resistors",
             "table": "resistors",
             "key": "part_id",
