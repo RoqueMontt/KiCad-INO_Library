@@ -1,0 +1,55 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d4440dba-022e-49b2-97f2-6fc1871c7304")
+	(paper "A4")
+	(title_block
+		(title "Block Diagram")
+		(date "2025-04-06")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+	)
+	(lib_symbols)
+	(text "Component	|	Min@3V3	|	Max@3V3	\n------------------------------------------------------------\nComponent 1	|	xx nA		|	xx nA\nComponent 2	|	xx uA		|	xx uA\n"
+		(exclude_from_sim no)
+		(at 30.226 112.014 0)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 3.81 3.81)
+				(color 51 57 118 1)
+			)
+			(justify left)
+		)
+		(uuid "17788164-fb4d-44a2-b50b-28b06c25dbaf")
+	)
+	(text "Total			|	xx.xx mA	|	xx.xx mA\n------------------------------------------------------------\nEfficiency		|	xx%		|	xx%\n\nReal			|	xx.xx mA	|	xx.xx mA\nConsumption"
+		(exclude_from_sim no)
+		(at 153.924 112.776 0)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 3.81 3.81)
+				(color 51 57 118 1)
+			)
+			(justify left)
+		)
+		(uuid "5c5d7950-86d4-4f7a-bb54-479cf0808a31")
+	)
+	(text "POWER CONSUMPTION PROFILE"
+		(exclude_from_sim no)
+		(at 93.726 31.496 0)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 7 7)
+				(thickness 1)
+				(bold yes)
+				(color 162 38 43 0.9411764706)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e882f1b-d0cc-4573-92a3-f932f531edfa")
+	)
+)

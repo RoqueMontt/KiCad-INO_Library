@@ -1,0 +1,18 @@
+# Ignore the generated binary database
+# Since you generate this from CSVs, you don't need to version control the binary
+*.db
+*.sqlite
+
+# Ignore KiCad temporary files and backups
+*.lck
+*.bak
+*.kicad_prl
+fp-info-cache
+
+# Python cache (created by your script)
+__pycache__/
+*.pyc
+
+# Operating System files
+.DS_Store
+Thumbs.db

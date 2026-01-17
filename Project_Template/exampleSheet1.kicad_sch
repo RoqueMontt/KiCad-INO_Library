@@ -1,0 +1,38 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7ab40a85-baa6-4582-adfb-7f57f0ad2747")
+	(paper "A4")
+	(title_block
+		(date "2025-04-06")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 20.32 27.94)
+		(end 274.32 93.98)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 491d5fc4-44aa-4dbe-826d-2478be9533fa)
+	)
+	(text "Section Name\n"
+		(exclude_from_sim no)
+		(at 21.336 25.4 0)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 5 5)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0505401-b1b8-42a8-b171-d20de20544c0")
+	)
+)

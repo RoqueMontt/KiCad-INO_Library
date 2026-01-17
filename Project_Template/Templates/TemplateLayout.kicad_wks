@@ -1,0 +1,344 @@
+(kicad_wks
+	(version 20231118)
+	(generator "pl_editor")
+	(generator_version "8.0")
+	(setup
+		(textsize 1.5 1.5)
+		(linewidth 0.15)
+		(textlinewidth 0.15)
+		(left_margin 10)
+		(right_margin 10)
+		(top_margin 10)
+		(bottom_margin 10)
+	)
+	(rect
+		(name "")
+		(start 0 0 ltcorner)
+		(end 0 0)
+		(repeat 2)
+		(incrx 2)
+		(incry 2)
+	)
+	(line
+		(name "")
+		(start 50 2 ltcorner)
+		(end 50 0 ltcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 50 2 lbcorner)
+		(end 50 0 lbcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1 lbcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 0 50 ltcorner)
+		(end 2 50 ltcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 25 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(line
+		(name "")
+		(start 0 50 rtcorner)
+		(end 2 50 rtcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 25 rtcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(tbtext "${#}"
+		(name "")
+		(pos 16.6042 5.7042)
+		(font
+			(face "Agency FB")
+			(size 2.5 2.5) bold
+			(color 0 0 127 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "Sheet:"
+		(name "")
+		(pos 16.9932 10.4602)
+		(font
+			(face "Agency FB")
+			(color 0 0 255 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "of"
+		(name "")
+		(pos 12.049 5.206)
+		(font
+			(face "Agency FB")
+			(size 1.8 0)
+			(color 0 0 255 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "${##}"
+		(name "")
+		(pos 7.7982 5.7042)
+		(font
+			(face "Agency FB")
+			(size 2.5 2.5) bold
+			(color 0 0 127 1)
+		)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 34.1142 2.0022)
+		(end 34.1142 12.5022)
+	)
+	(line
+		(name "")
+		(start 34 12.502)
+		(end 1.989 12.502)
+	)
+	(line
+		(name "")
+		(start 18.1142 12.5022)
+		(end 18.1142 2.0022)
+	)
+	(line
+		(name "")
+		(start 43.489 12.502)
+		(end 43.489 23.002)
+	)
+	(line
+		(name "")
+		(start 43.489 23.002)
+		(end 1.989 23.002)
+	)
+	(tbtext "Project Name:"
+		(name "")
+		(pos 42.426 20.681)
+		(font
+			(face "Agency FB")
+			(color 0 0 255 1)
+		)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 65.797 12.502)
+		(end 31.297 12.502)
+	)
+	(tbtext "Designer:"
+		(name "")
+		(pos 33.0222 10.4562)
+		(font
+			(face "Agency FB")
+			(color 0 0 255 1)
+		)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 65.797 23.002)
+		(end 31.297 23.002)
+	)
+	(tbtext "${DESIGNER}"
+		(name "")
+		(pos 33.0222 5.9562)
+		(font
+			(face "Agency FB")
+			(color 0 0 127 1)
+		)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 90.627 12.507)
+		(end 56.145 12.502)
+	)
+	(line
+		(name "")
+		(start 51.947 2)
+		(end 51.947 12.479)
+	)
+	(line
+		(name "")
+		(start 90.62 12.502)
+		(end 90.62 23.002)
+	)
+	(line
+		(name "")
+		(start 90.645 23.002)
+		(end 56.145 23.002)
+	)
+	(tbtext "Board Name:"
+		(name "")
+		(pos 89.453 20.981)
+		(font
+			(face "Agency FB")
+			(color 0 0 255 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "${PROJECT_NAME}"
+		(name "")
+		(pos 187.595 16.054 lbcorner)
+		(font
+			(face "Agency FB")
+			(size 3.048 2.5) bold
+			(color 0 0 127 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "${BOARD_NAME}"
+		(name "")
+		(pos 234.876 16.354 lbcorner)
+		(font
+			(face "Agency FB")
+			(size 3.048 2.5) bold
+			(color 0 0 127 1)
+		)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 125.145 12.502)
+		(end 125.145 23.002)
+	)
+	(line
+		(name "")
+		(start 125.145 2.002)
+		(end 125.145 12.502)
+	)
+	(tbtext "Sheet Title:"
+		(name "")
+		(pos 203.454 9.934 lbcorner)
+		(font
+			(face "Agency FB")
+			(color 0 0 255 1)
+		)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 125.152 23.007)
+		(end 90.695 23.002)
+	)
+	(tbtext "Comments:"
+		(name "")
+		(pos 123.77 20.432)
+		(font
+			(face "Agency FB")
+			(color 0 0 255 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "${COMMENT1}"
+		(name "")
+		(pos 123.645 16.157)
+		(font
+			(face "Agency FB")
+			(color 0 0 127 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "${COMMENT2}"
+		(name "")
+		(pos 123.766 7.932)
+		(font
+			(face "Agency FB")
+			(color 0 0 127 1)
+		)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 90.62 1.952)
+		(end 90.62 12.452)
+	)
+	(line
+		(name "")
+		(start 74.677 12.507)
+		(end 74.677 2.007)
+	)
+	(tbtext "${ISSUE_DATE}"
+		(name "")
+		(pos 89.427 5.919)
+		(font
+			(face "Agency FB")
+			(color 0 0 127 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "Revision:"
+		(name "")
+		(pos 50.743 10.336)
+		(font
+			(face "Agency FB")
+			(color 0 0 255 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "Date:"
+		(name "")
+		(pos 187.471 10.165 lbcorner)
+		(font
+			(face "Agency FB")
+			(color 0 0 255 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "${REVISION}"
+		(name "")
+		(pos 226.13 5.8362 lbcorner)
+		(font
+			(face "Agency FB")
+			(color 0 0 127 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "${SHEETNAME}"
+		(name "")
+		(pos 73.515 5.951)
+		(font
+			(face "Agency FB")
+			(color 0 0 127 1)
+		)
+		(comment "Sheet id")
+	)
+)

@@ -1,0 +1,199 @@
+{
+    "meta": {
+        "version": 0
+    },
+    "name": "INO Master Library",
+    "description": "Auto-generated Global Component Database",
+    "source": {
+        "type": "odbc",
+        "dsn": "",
+        "username": "",
+        "password": "",
+        "timeout_seconds": 2,
+        "connection_string": "Driver={SQLite3 ODBC Driver};Database=${CWD}/INO_componentsDB.db;"
+    },
+    "libraries": [
+        {
+            "name": "Capacitors",
+            "table": "capacitors",
+            "key": "part_id",
+            "symbols": "symbol",
+            "footprints": "footprint",
+            "fields": [
+                {
+                    "column": "value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "mfg",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "description",
+                    "name": "Description",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                }
+            ],
+            "properties": {
+                "part_id": "part_id",
+                "Value": "value",
+                "footprint": "footprint",
+                "mfg": "mfg",
+                "package": "package",
+                "symbol": "symbol",
+                "description": "description"
+            }
+        },
+        {
+            "name": "Ics",
+            "table": "ics",
+            "key": "part_id",
+            "symbols": "symbol",
+            "footprints": "footprint",
+            "fields": [
+                {
+                    "column": "value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "description",
+                    "name": "Description",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "mfg",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "mpn",
+                    "name": "MPN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "lcsc",
+                    "name": "LCSC",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                }
+            ],
+            "properties": {
+                "part_id": "part_id",
+                "Value": "value",
+                "symbol": "symbol",
+                "footprint": "footprint",
+                "description": "description",
+                "mfg": "mfg",
+                "mpn": "mpn",
+                "lcsc": "lcsc"
+            }
+        },
+        {
+            "name": "Mcu",
+            "table": "mcu",
+            "key": "part_id",
+            "symbols": "symbol",
+            "footprints": "footprint",
+            "fields": [
+                {
+                    "column": "value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "description",
+                    "name": "Description",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                }
+            ],
+            "properties": {
+                "part_id": "part_id",
+                "Value": "value",
+                "symbol": "symbol",
+                "footprint": "footprint",
+                "description": "description"
+            }
+        },
+        {
+            "name": "Resistors",
+            "table": "resistors",
+            "key": "part_id",
+            "symbols": "symbol",
+            "footprints": "footprint",
+            "fields": [
+                {
+                    "column": "value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "description",
+                    "name": "Description",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "mfg",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "mpn",
+                    "name": "MPN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "lcsc",
+                    "name": "LCSC",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "rating",
+                    "name": "Rating",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                }
+            ],
+            "properties": {
+                "part_id": "part_id",
+                "Value": "value",
+                "symbol": "symbol",
+                "footprint": "footprint",
+                "description": "description",
+                "mfg": "mfg",
+                "mpn": "mpn",
+                "lcsc": "lcsc",
+                "rating": "rating",
+                "package": "package"
+            }
+        }
+    ]
+}

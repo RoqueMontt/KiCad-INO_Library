@@ -1,0 +1,1529 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0650c7a8-acba-429c-9f8e-eec0baf0bc1c")
+	(paper "A4")
+	(title_block
+		(title "Cover Page")
+		(date "2025-04-06")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+	)
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "library_link:Capacitors/CAP-003"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10n"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "INO_Footprints:C_0402_1005Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10nF ±5% 25V Ceramic Capacitor C0G 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "25V 5%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" "0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "GRM1555C1E103JE01D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "muRata"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C3855387"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "INO_Footprints:C_0402_1005Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Capacitors/CAP-003_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Capacitors/CAP-003_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "library_link:Resistors/RES-003"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "5m"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "INO_Footprints:R_2512_6332Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2W 5mΩ Current Sense Resistor ±1% 2512 Chip Resistor - Surface Mount RoHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" "2512"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "HoYLR2512-2W-5mR-1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "a"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C5375417"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "INO_Footprints:R_2512_6332Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Resistors/RES-003_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Resistors/RES-003_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "INDEX"
+		(exclude_from_sim no)
+		(at 20.574 156.464 0)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 5 5)
+				(bold yes)
+				(color 66 91 207 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "42c7a9b4-2182-428c-850a-4a498384aa45")
+	)
+	(text "DRAFT - Preliminary concept. Do not rely on detailed information."
+		(exclude_from_sim no)
+		(at 199.39 148.59 0)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 2 2)
+				(thickness 0.6)
+				(bold yes)
+				(color 70 132 99 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "45186bfa-cfc9-49a2-bdbf-41ada2a56cd0")
+	)
+	(text "${RELEASE_DATE}"
+		(exclude_from_sim no)
+		(at 276.352 49.784 0)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 7 7)
+				(thickness 1)
+				(bold yes)
+				(color 162 38 43 0.9411764706)
+			)
+			(justify right bottom)
+		)
+		(uuid "46ca901b-76e9-4982-ae69-27808e214e85")
+	)
+	(text "PRELIMINARY - Near-final schematic. Subject to minor revisions."
+		(exclude_from_sim no)
+		(at 199.39 154.94 0)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 2 2)
+				(thickness 0.6)
+				(bold yes)
+				(color 140 140 140 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "66569a61-6eb3-43ef-b6e7-8ec35b719a7a")
+	)
+	(text "STATUS\n"
+		(exclude_from_sim no)
+		(at 199.136 139.7 0)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 5 5)
+				(bold yes)
+				(color 66 91 207 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "6bb03f89-6213-44da-b3a9-f8abda7fa1f4")
+	)
+	(text "NOTES"
+		(exclude_from_sim no)
+		(at 114.808 138.938 0)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 5 5)
+				(bold yes)
+				(color 66 91 207 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "791303da-13db-4f0c-a893-09854d925b76")
+	)
+	(text "CHECKED - Verification complete. "
+		(exclude_from_sim no)
+		(at 199.39 161.29 0)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 2 2)
+				(thickness 0.6)
+				(bold yes)
+				(color 140 140 140 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "89f4a5cb-55ff-412d-afce-ee43298a0fe6")
+	)
+	(text "Rev ${REVISION}"
+		(exclude_from_sim no)
+		(at 276.606 34.798 0)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 9.5 9.5)
+				(thickness 1)
+				(bold yes)
+				(color 162 38 43 0.9411764706)
+			)
+			(justify right bottom)
+		)
+		(uuid "a06e5d59-52d1-4eb1-a8c8-a44bd78b71df")
+	)
+	(text "RELEASED - Approved for production."
+		(exclude_from_sim no)
+		(at 199.39 167.64 0)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 2 2)
+				(thickness 0.6)
+				(bold yes)
+				(color 140 140 140 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a23e4987-9f8f-4f95-85c8-c0cd2173921b")
+	)
+	(text "BOTTOM VIEW"
+		(exclude_from_sim no)
+		(at 198.628 69.85 0)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 5 5)
+				(bold yes)
+				(color 66 91 207 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7a73dff-5fc9-40d6-b501-3f5db7b06c51")
+	)
+	(text "• Not fitted components are marked as"
+		(exclude_from_sim no)
+		(at 115.57 149.86 0)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 3 3)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab51e9ed-e747-43e5-8387-3b381bc3a3cd")
+	)
+	(text "${BOARD_NAME}"
+		(exclude_from_sim no)
+		(at 20.828 50.546 0)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 7 7)
+				(thickness 1)
+				(bold yes)
+				(color 162 38 43 0.9411764706)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8388f74-9bd4-4aaf-881c-004d1f7d620e")
+	)
+	(text "DESIGN CONSIDERATIONS"
+		(exclude_from_sim no)
+		(at 19.939 70.485 0)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 5 5)
+				(bold yes)
+				(color 66 91 207 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d84a8b6a-9ec4-408f-b907-74bfbc1a6466")
+	)
+	(text "${PROJECT_NAME}"
+		(exclude_from_sim no)
+		(at 20.828 35.306 0)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 9.5 9.5)
+				(thickness 1)
+				(bold yes)
+				(color 162 38 43 0.94)
+			)
+			(justify left bottom)
+		)
+		(uuid "efea0bc1-c10a-48e5-b0dd-303ee9f9cbac")
+	)
+	(text "• Use	for multimeter test points and\n\n	for oscillocope test points"
+		(exclude_from_sim no)
+		(at 115.824 172.72 0)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 3 3)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "f815e8bb-13e8-4fc4-8ca6-4625c901a4c7")
+	)
+	(text_box "Debug note"
+		(exclude_from_sim no)
+		(at 54.864 73.66 0)
+		(size 30.48 20.32)
+		(margins 1.75 1.75 1.75 1.75)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 255 165 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 3.556 3.556)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "44dbd2e7-bda6-4ae7-8d24-a8c9e696b7bc")
+	)
+	(text_box "1. File Setup\n• Export STEP file, import to Onshape, and open the document.\n2. Visualization Settings\n• Camera and Render options: Select Shaded with edges -> Unshaded.\n• Camera and Render options: Select Perspective.\n• Align the model at a 45° angle (between Top and Front).\n3. Export\n• Menu (Main Logo) -> Print -> Download image."
+		(exclude_from_sim no)
+		(at 115.57 77.47 0)
+		(size 147.32 36.83)
+		(margins 1.75 1.75 1.75 1.75)
+		(stroke
+			(width 0.381)
+			(type dash_dot_dot)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "6aca5f47-3f85-4adf-9e00-3c92ca7a0857")
+	)
+	(text_box "Critical layout guidelines"
+		(exclude_from_sim no)
+		(at 20.2438 121.666 0)
+		(size 65.3542 15.748)
+		(margins 1.75 1.75 1.75 1.75)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 3.556 3.556)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "b3a4f4fc-df8a-455c-b6df-a674f6a00bc3")
+	)
+	(text_box "Critical design note"
+		(exclude_from_sim no)
+		(at 54.864 97.79 0)
+		(size 30.48 20.32)
+		(margins 1.75 1.75 1.75 1.75)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 3.556 3.556)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "c1cd32b8-2241-4ca2-a886-d5687b1341a5")
+	)
+	(text_box "Software note"
+		(exclude_from_sim no)
+		(at 20.066 97.79 0)
+		(size 30.48 20.32)
+		(margins 1.75 1.75 1.75 1.75)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 250 236 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 3.556 3.556)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "c5949eb3-58d6-485d-b064-0e8444447feb")
+	)
+	(text_box "Informational design note"
+		(exclude_from_sim no)
+		(at 19.939 73.66 0)
+		(size 30.48 20.32)
+		(margins 1.75 1.75 1.75 1.75)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 3.556 3.556)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "df9aaf90-5684-4df6-8977-ecd12ac73521")
+	)
+	(polyline
+		(pts
+			(xy 172.212 145.542) (xy 169.926 148.59)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "b14fee80-43e0-494d-9399-7ce5617df2bc")
+	)
+	(polyline
+		(pts
+			(xy 169.926 145.542) (xy 172.466 148.59)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "c21545b5-44a6-4771-8e2f-30c8ad4f4f19")
+	)
+	(symbol
+		(lib_id "library_link:Resistors/RES-003")
+		(at 152.4 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97c97882-5a5a-4b23-b84e-8f2e43420f3e")
+		(property "Reference" "R101"
+			(at 154.94 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5m"
+			(at 154.94 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "INO_Footprints:R_2512_6332Metric"
+			(at 150.622 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2W 5mΩ Current Sense Resistor ±1% 2512 Chip Resistor - Surface Mount RoHS"
+			(at 152.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 152.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "2512"
+			(at 152.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HoYLR2512-2W-5mR-1%"
+			(at 152.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "a"
+			(at 152.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5375417"
+			(at 152.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d34dc47-f038-406a-862a-e22fba3895f3")
+		)
+		(pin "2"
+			(uuid "d68f3abe-3e57-4958-a410-ca73c3442424")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
+					(reference "R101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 125.73 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b807d21-339d-4d9e-ac90-505645060bda")
+		(property "Reference" "TP101"
+			(at 126.746 159.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TP"
+			(at 127 160.02 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(color 132 0 132 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 130.81 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 125.73 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "706848b6-96b0-4f43-8fd8-c8be3f947017")
+		)
+		(instances
+			(project "Template"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
+					(reference "TP101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 116.84 171.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c88b1fd8-54da-43fd-9a8e-ad62e638bb9f")
+		(property "Reference" "TP102"
+			(at 118.872 170.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "TP"
+			(at 118.872 169.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lib_fp:TestPoint_Keystone_5019_Miniature"
+			(at 111.76 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point, Compact, Surface Mount"
+			(at 116.84 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5199800"
+			(at 116.84 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "ronghe"
+			(at 116.84 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RH-5019"
+			(at 116.84 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0178480d-37e4-4cbe-89be-80af07eee15a")
+		)
+		(instances
+			(project "Template"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
+					(reference "TP102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library_link:Capacitors/CAP-003")
+		(at 148.59 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7e75854-f079-4ea1-9b7e-9ab38f48d5ec")
+		(property "Reference" "C101"
+			(at 152.4 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 152.4 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "INO_Footprints:C_0402_1005Metric"
+			(at 149.5552 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10nF ±5% 25V Ceramic Capacitor C0G 0402"
+			(at 148.59 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "25V 5%"
+			(at 152.4 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "0402"
+			(at 148.59 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM1555C1E103JE01D"
+			(at 148.59 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "muRata"
+			(at 148.59 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3855387"
+			(at 148.59 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1888d5ac-063c-49b9-a0f8-f20744bd2ede")
+		)
+		(pin "2"
+			(uuid "20816c86-dca8-4688-b99f-8111508303fd")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
+					(reference "C101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 165.1)
+		(size 35.052 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3873c67b-568b-4ac9-9dca-0f8297fbe722")
+		(property "Sheetname" "Block Diagram"
+			(at 21.59 164.0709 0)
+			(effects
+				(font
+					(face "Agency FB")
+					(size 1.905 1.905)
+					(bold yes)
+					(color 162 38 43 0.9411764706)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "blockDiagram.kicad_sch"
+			(at 38.354 169.418 0)
+			(effects
+				(font
+					(face "Agency FB")
+					(size 1.5 1.5)
+					(italic yes)
+				)
+			)
+		)
+		(instances
+			(project "Project_Template"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 65.1002 165.0238)
+		(size 35.052 8.9916)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "56959eb7-5620-4a55-9599-555042a88bfc")
+		(property "Sheetname" "Revision History"
+			(at 65.1002 163.9722 0)
+			(effects
+				(font
+					(face "Agency FB")
+					(size 1.95 1.95)
+					(bold yes)
+					(color 162 38 43 0.9411764706)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "revisionHistory.kicad_sch"
+			(at 82.6262 169.3418 0)
+			(effects
+				(font
+					(face "Agency FB")
+					(size 1.5 1.5)
+					(italic yes)
+				)
+			)
+		)
+		(instances
+			(project "Project_Template"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 181.61)
+		(size 35.052 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "96065752-beec-4bf6-8538-c79a9a503bdf")
+		(property "Sheetname" "Power Consumption Profile"
+			(at 64.77 180.5809 0)
+			(effects
+				(font
+					(face "Agency FB")
+					(size 1.905 1.905)
+					(bold yes)
+					(color 162 38 43 0.9411764706)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "powerConsumptionProfile.kicad_sch"
+			(at 81.534 185.928 0)
+			(effects
+				(font
+					(face "Agency FB")
+					(size 1.5 1.5)
+					(italic yes)
+				)
+			)
+		)
+		(instances
+			(project "Project_Template"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 181.61)
+		(size 35.052 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eca7ce34-d72d-48ed-90f4-75aece91b145")
+		(property "Sheetname" "Architecture"
+			(at 21.59 180.5809 0)
+			(effects
+				(font
+					(face "Agency FB")
+					(size 1.905 1.905)
+					(bold yes)
+					(color 162 38 43 0.9411764706)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "architecture.kicad_sch"
+			(at 38.354 185.928 0)
+			(effects
+				(font
+					(face "Agency FB")
+					(size 1.5 1.5)
+					(italic yes)
+				)
+			)
+		)
+		(instances
+			(project "Project_Template"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
