@@ -1,6 +1,6 @@
 part_id,value,symbol,footprint,description,mfg,mpn,lcsc,rating,package
-RES-001,0,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,0Ω 100mW 75V Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount RoHS,YAGEO,RC0603FR-070RL,C100044,100mW 1%,603
-RES-002,0,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,0Ω 62.5mW 50V Thick Film Resistor ±1% 0402 Chip Resistor - Surface Mount RoHS,YAGEO,RC0402FR-070RL,C106231,62.5mW 1%,402
+RES-001,0,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,0Ω 100mW 75V Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount RoHS,YAGEO,RC0603FR-070RL,C100044,100mW 1%,0603
+RES-002,0,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,0Ω 62.5mW 50V Thick Film Resistor ±1% 0402 Chip Resistor - Surface Mount RoHS,YAGEO,RC0402FR-070RL,C106231,62.5mW 1%,0402
 RES-003,5m,INO_Symbols:R,INO_Footprints:R_2512_6332Metric,2W 5mΩ Current Sense Resistor ±1% 2512 Chip Resistor - Surface Mount RoHS,Milliohm,HoYLR2512-2W-5mR-1%,C5375417,2W 1%,2512
 RES-004,5m,INO_Symbols:R,INO_Footprints:R_1206_3216Metric,1W 5mΩ Current Sense Resistor ±1% ±50ppm/℃ 1206 Chip Resistor - Surface Mount RoHS,Milliohm,HoLLR1206-1W-5mR-1%,C2988648,1W 1%,1206
 RES-005,10m,INO_Symbols:R,INO_Footprints:R_1206_3216Metric,1W 10mΩ Current Sense Resistor ±1% ±75ppm/℃ 1206 Chip Resistor - Surface Mount RoHS,Milliohm,HoLR1206-1W-10mR-1%-75ppm,C601097,1W 1%,1206
@@ -11,20 +11,79 @@ RES-009,50m,INO_Symbols:R,INO_Footprints:R_2512_6332Metric,50mΩ ±1% 2W Current
 RES-010,50m,INO_Symbols:R,INO_Footprints:R_1206_3216Metric,50mΩ 1W Current Sense Resistor ±1% 1206 Chip Resistor - Surface Mount RoHS,Milliohm,HoJLR1206-1W-50mR-1%,C2904224,1W 1%,1206
 RES-011,100m,INO_Symbols:R,INO_Footprints:R_2512_6332Metric,2W 100mΩ Current Sense Resistor ±50ppm/℃ ±1% 2512 Chip Resistor - Surface Mount RoHS,FOJAN,FRM252WFR100TN,C7420048,2W 1%,2512
 RES-012,100m,INO_Symbols:R,INO_Footprints:R_1206_3216Metric,1W 100mΩ Current Sense Resistor ±1% 1206 Chip Resistor - Surface Mount RoHS,Milliohm,HoJLR1206-1W-100mR-1%,C2903496,1W 1%,1206
-RES-013,22,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,22Ω 62.5mW 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS,YAGEO,RC0402FR-0722RL,C114765,62.5mW 1%,402
-RES-014,22,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,22Ω 100mW 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS,YAGEO,RC0603FR-0722RL,C107701,100mW 1%,603
-RES-015,56,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,56Ω ±1% 62.5mW 0402 Thick Film Resistor,YAGEO,RC0402FR-0756RL,C137957,62.5mW 1%,402
-RES-016,56,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,56Ω ±1% 100mW 0603 Thick Film Resistor,UNI-ROYAL,0603WAF560JT5E,C25196,100mW 1%,603
-RES-017,75,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,75Ω 100mW 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS,YAGEO,RC0603FR-0775RL,C112309,100mW 1%,603
-RES-018,75,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,75Ω ±1% 62.5mW 0402 Thick Film Resistor,UNI-ROYAL,0402WGF750JTCE,C25133,62.5mW 1%,402
-RES-019,100,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,100mW 100Ω 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS,YAGEO,RC0603FR-07100RL,C105588,100mW 1%,603
-RES-020,100,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,100Ω 62.5mW 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS,YAGEO,RC0402FR-07100RL,C106232,62.5mW 1%,402
-RES-021,200,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,62.5mW 200Ω 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS,YAGEO,RC0402FR-07200RL,C114764,62.5mW 1%,402
-RES-022,200,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,100mW 200Ω 75V Thin Film Resistor ±25ppm/℃ ±0.1% 0603 Chip Resistor - Surface Mount RoHS,YAGEO,RT0603BRD07200RL,C861216,100mW 0.1%,603
-RES-023,330,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,330Ω 62.5mW 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS,YAGEO,RC0402FR-07330RL,C105875,62.5mW 1%,402
-RES-024,330,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,100mW 330Ω 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS,YAGEO,RC0603FR-07330RL,C105881,100mW 1%,603
-RES-025,470,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,100mW 470Ω 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS,YAGEO,RC0603FR-07470RL,C114669,100mW 1%,603
-RES-026,470,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,62.5mW 470Ω 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS,YAGEO,RC0402FR-07470RL,C114877,62.5mW 1%,402
-RES-027,560,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,560Ω ±1% 100mW 0603 Thick Film Resistor,UNI-ROYAL,0603WAF5600T5E,C23204,100mW 1%,603
-RES-028,560,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,560Ω ±1% 62.5mW 0402 Thick Film Resistor,UNI-ROYAL,0402WGF5600TCE,C25126,62.5mW 1%,402
-RES-029,3k,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,3k 0402 Resistor 1%,UNI-ROYAL,0402WGF5600TCE,C25126,62.5mW 1%,402
+RES-013,22,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,22Ω 62.5mW 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS,YAGEO,RC0402FR-0722RL,C114765,62.5mW 1%,0402
+RES-014,22,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,22Ω 100mW 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS,YAGEO,RC0603FR-0722RL,C107701,100mW 1%,0603
+RES-015,56,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,56Ω ±1% 62.5mW 0402 Thick Film Resistor,YAGEO,RC0402FR-0756RL,C137957,62.5mW 1%,0402
+RES-016,56,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,56Ω ±1% 100mW 0603 Thick Film Resistor,UNI-ROYAL,0603WAF560JT5E,C25196,100mW 1%,0603
+RES-017,75,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,75Ω 100mW 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS,YAGEO,RC0603FR-0775RL,C112309,100mW 1%,0603
+RES-018,75,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,75Ω ±1% 62.5mW 0402 Thick Film Resistor,UNI-ROYAL,0402WGF750JTCE,C25133,62.5mW 1%,0402
+RES-019,100,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,100mW 100Ω 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS,YAGEO,RC0603FR-07100RL,C105588,100mW 1%,0603
+RES-020,100,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,100Ω 62.5mW 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS,YAGEO,RC0402FR-07100RL,C106232,62.5mW 1%,0402
+RES-021,200,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,62.5mW 200Ω 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS,YAGEO,RC0402FR-07200RL,C114764,62.5mW 1%,0402
+RES-022,200,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,100mW 200Ω 75V Thin Film Resistor ±25ppm/℃ ±0.1% 0603 Chip Resistor - Surface Mount RoHS,YAGEO,RT0603BRD07200RL,C861216,100mW 0.1%,0603
+RES-023,330,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,330Ω 62.5mW 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS,YAGEO,RC0402FR-07330RL,C105875,62.5mW 1%,0402
+RES-024,330,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,100mW 330Ω 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS,YAGEO,RC0603FR-07330RL,C105881,100mW 1%,0603
+RES-025,470,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,100mW 470Ω 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS,YAGEO,RC0603FR-07470RL,C114669,100mW 1%,0603
+RES-026,470,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,62.5mW 470Ω 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS,YAGEO,RC0402FR-07470RL,C114877,62.5mW 1%,0402
+RES-027,560,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,560Ω ±1% 100mW 0603 Thick Film Resistor,UNI-ROYAL,0603WAF5600T5E,C23204,100mW 1%,0603
+RES-028,560,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,560Ω ±1% 62.5mW 0402 Thick Film Resistor,UNI-ROYAL,0402WGF5600TCE,C25126,62.5mW 1%,0402
+RES-029,1k,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,100mW 1kΩ 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS,YAGEO,RC0603FR-071KL,C22548,100mW 1%,0603
+RES-030,1k,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,1kΩ 62.5mW 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS,YAGEO,RC0402FR-071KL,C106235,62.5mW 1%,0402
+RES-031,1k5,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,1.5kΩ ±1% 100mW 0603 Thick Film Resistor,UNI-ROYAL,0603WAF1501T5E,C22843,100mW 1%,0603
+RES-032,1k5,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,1.5kΩ ±1% 62.5mW 0402 Thick Film Resistor,UNI-ROYAL,0402WGF1501TCE,C25867,62.5mW 1%,0402
+RES-033,2k2,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,2.2kΩ ±1% 62.5mW 0402 Thick Film Resistor,UNI-ROYAL,0402WGF2201TCE,C25879,62.5mW 1%,0402
+RES-034,2k2,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,100mW 2.2kΩ 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS,YAGEO,RC0603FR-072K2L,C114662,100mW 1%,0603
+RES-035,3k3,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,3.3kΩ ±1% 100mW 0603 Thick Film Resistor,UNI-ROYAL,0603WAF3301T5E,C22978,100mW 1%,0603
+RES-036,3k3,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,3.3kΩ ±1% 62.5mW 0402 Thick Film Resistor,UNI-ROYAL,0402WGF3301TCE,C25890,62.5mW 1%,0402
+RES-037,3k9,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,3.9kΩ ±1% 100mW 0603 Thick Film Resistor,UNI-ROYAL,0603WAF3901T5E,C23018,100mW 1%,0603
+RES-038,3k9,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,3.9kΩ 62.5mW 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS,YAGEO,RC0402FR-073K9L,C131467,62.5mW 1%,0402
+RES-039,4k7,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,4.7kΩ ±1% 62.5mW 0402 Thick Film Resistor,UNI-ROYAL,0402WGF4701TCE,C25900,62.5mW 1%,0402
+RES-040,4k7,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,100mW 4.7kΩ 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS,YAGEO,RC0603FR-074K7L,C99782,100mW 1%,0603
+RES-041,5k1,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,5.1kΩ ±1% 100mW 0603 Thick Film Resistor,UNI-ROYAL,0603WAF5101T5E,C23186,100mW 1%,0603
+RES-042,5k1,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,5.1kΩ 62.5mW 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS,YAGEO,RC0402FR-075K1L,C105872,62.5mW 1%,0402
+RES-043,5k6,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,5.6kΩ ±1% 100mW 0603 Thick Film Resistor,UNI-ROYAL,0603WAF5601T5E,C23189,100mW 1%,0603
+RES-044,5k6,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,5.6kΩ 62.5mW 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS,YAGEO,RC0402FR-075K6L,C163457,62.5mW 1%,0402
+RES-045,6k2,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,6.2kΩ 62.5mW 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS,YAGEO,RC0402FR-076K2L,C137946,62.5mW 1%,0402
+RES-046,6k2,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,6.2kΩ ±1% 100mW 0603 Thick Film Resistor,UNI-ROYAL,0603WAF6201T5E,C4260,100mW 1%,0603
+RES-047,6k8,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,6.8kΩ ±1% 100mW 0603 Thick Film Resistor,UNI-ROYAL,0603WAF6801T5E,C23212,100mW 1%,0603
+RES-048,6k8,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,62.5mW 6.8kΩ 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS,YAGEO,RC0402FR-076K8L,C93940,62.5mW 1%,0402
+RES-049,8k2,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,8.2kΩ 62.5mW 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS,YAGEO,RC0402FR-078K2L,C137929,62.5mW 1%,0402
+RES-050,8k2,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,100mW 8.2kΩ 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS,YAGEO,RC0603FR-078K2L,C114637,100mW 1%,0603
+RES-051,9k1,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,9.1kΩ ±1% 62.5mW 0402 Thick Film Resistor,UNI-ROYAL,0402WGF9101TCE,C25926,62.5mW 1%,0402
+RES-052,9k1,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,9.1kΩ ±1% 100mW 0603 Thick Film Resistor,UNI-ROYAL,0603WAF9101T5E,C23260,100mW 1%,0603
+RES-053,10k,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,100mW 10kΩ 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS,YAGEO,RC0603FR-0710KL,C98220,100mW 1%,0603
+RES-054,10k,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,62.5mW 10kΩ 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS,YAGEO,RC0402FR-0710KL,C60490,62.5mW 1%,0402
+RES-055,12k,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,12kΩ ±1% 100mW 0603 Thick Film Resistor,UNI-ROYAL,0603WAF1202T5E,C22790,100mW 1%,0603
+RES-056,12k,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,12kΩ ±1% 62.5mW 0402 Thick Film Resistor,RALEC,RTT021202FTH,C102781,62.5mW 1%,0402
+RES-057,15k,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,15kΩ ±1% 100mW 0603 Thick Film Resistor,UNI-ROYAL,0603WAF1502T5E,C22809,100mW 1%,0603
+RES-058,15k,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,15kΩ ±1% 62.5mW 0402 Thick Film Resistor,UNI-ROYAL,0402WGF1502TCE,C25756,62.5mW 1%,0402
+RES-059,12k1,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,12.1kΩ ±1% 100mW 0603 Thick Film Resistor,UNI-ROYAL,0603WAF1212T5E,C22864,100mW 1%,0603
+RES-060,12k1,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,12.1kΩ ±1% 62.5mW 0402 Thick Film Resistor,UNI-ROYAL,0402WGF1212TCE,C25852,62.5mW 1%,0402
+RES-061,22k,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,22kΩ ±1% 100mW 0603 Thick Film Resistor,UNI-ROYAL,0603WAF2202T5E,C31850,100mW 1%,0603
+RES-062,22k,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,22kΩ ±1% 62.5mW 0402 Thick Film Resistor,UNI-ROYAL,0402WGF2202TCE,C25768,62.5mW 1%,0402
+RES-063,20k,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,20kΩ ±1% 62.5mW 0402 Thick Film Resistor,UNI-ROYAL,0402WGF2002TCE,C25765,62.5mW 1%,0402
+RES-064,20k,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,20kΩ ±1% 100mW 0603 Thick Film Resistor,UNI-ROYAL,0603WAF2002T5E,C4184,100mW 1%,0603
+RES-065,24k9,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,24.9kΩ ±1% 100mW 0603 Thick Film Resistor,UNI-ROYAL,0603WAF2492T5E,C25962,100mW 1%,0603
+RES-066,24k9,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,24.9kΩ ±1% 62.5mW 0402 Thick Film Resistor,YAGEO,RC0402FR-0724K9L,C138027,62.5mW 1%,0402
+RES-067,47k,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,47kΩ ±1% 100mW 0603 Thick Film Resistor,UNI-ROYAL,0603WAF4702T5E,C25819,100mW 1%,0603
+RES-068,47k,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,47kΩ ±1% 62.5mW 0402 Thick Film Resistor,UNI-ROYAL,0402WGF4702TCE,C25792,62.5mW 1%,0402
+RES-069,33k,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,33kΩ ±1% 100mW 0603 Thick Film Resistor,UNI-ROYAL,0603WAF3302T5E,C4216,100mW 1%,0603
+RES-070,33k,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,33kΩ ±1% 62.5mW 0402 Thick Film Resistor,UNI-ROYAL,0402WGF3302TCE,C25779,62.5mW 1%,0402
+RES-071,39k,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,39kΩ ±1% 62.5mW 0402 Thick Film Resistor,UNI-ROYAL,0402WGF3902TCE,C25783,62.5mW 1%,0402
+RES-072,39k,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,39kΩ ±1% 100mW 0603 Thick Film Resistor,UNI-ROYAL,0603WAF3902T5E,C23153,100mW 1%,0603
+RES-073,75k,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,75kΩ ±1% 100mW 0603 Thick Film Resistor,UNI-ROYAL,0603WAF7502T5E,C23242,100mW 1%,0603
+RES-074,75k,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,62.5mW 75kΩ 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS,YAGEO,RC0402FR-0775KL,C137935,62.5mW 1%,0402
+RES-075,62k,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,62.5mW 62kΩ 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS,YAGEO,RC0402FR-0762KL,C137950,62.5mW 1%,0402
+RES-076,62k,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,100mW 62kΩ 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS,YAGEO,RC0603FR-0762KL,C137694,100mW 1%,0603
+RES-077,82k,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,100mW 82kΩ 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS,YAGEO,RC0603FR-0782KL,C137678,100mW 1%,0603
+RES-078,82k,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,62.5mW 82kΩ 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS,YAGEO,RC0402FR-0782KL,C137932,62.5mW 1%,0402
+RES-079,100k,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,100mW 100kΩ 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS,YAGEO,RC0603FR-07100KL,C14675,100mW 1%,0603
+RES-080,100k,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,100kΩ 62.5mW 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS,YAGEO,RC0402FR-07100KL,C60491,62.5mW 1%,0402
+RES-081,200k,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,200kΩ ±1% 100mW 0603 Thick Film Resistor,UNI-ROYAL,0603WAF2003T5E,C25811,100mW 1%,0603
+RES-082,200k,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,200kΩ ±1% 62.5mW 0402 Thick Film Resistor,UNI-ROYAL,0402WGF2003TCE,C25764,62.5mW 1%,0402
+RES-083,300k,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,300kΩ ±1% 62.5mW 0402 Thick Film Resistor,UNI-ROYAL,0402WGF3003TCE,C25774,62.5mW 1%,0402
+RES-084,560k,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,560kΩ ±1% 62.5mW 0402 Thick Film Resistor,UNI-ROYAL,0402WGF5603TCE,C132339,62.5mW 1%,0402
+RES-085,470k,INO_Symbols:R,INO_Footprints:R_0603_1608Metric,470kΩ ±1% 100mW 0603 Thick Film Resistor,UNI-ROYAL,0603WAF4703T5E,C23178,100mW 1%,0603
+RES-086,180k,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,180kΩ ±1% 62.5mW 0402 Thick Film Resistor,UNI-ROYAL,0402WGF1803TCE,C25760,62.5mW 1%,0402
+RES-087,453k,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,453kΩ ±1% 62.5mW 0402 Thick Film Resistor,UNI-ROYAL,0402WGF4533TCE,C27009,62.5mW 1%,0402
+RES-088,130k,INO_Symbols:R,INO_Footprints:R_0402_1005Metric,130kΩ 62.5mW 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS,YAGEO,RC0402FR-07130KL,C93946,62.5mW 1%,0402

@@ -27,9 +27,33 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "description",
+                    "name": "Description",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
                     "column": "mfg",
                     "name": "Manufacturer",
                     "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "mpn",
+                    "name": "MPN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "lcsc",
+                    "name": "LCSC",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "rating",
+                    "name": "Rating",
+                    "visible_on_add": true,
                     "visible_in_chooser": true
                 },
                 {
@@ -37,22 +61,19 @@
                     "name": "Package",
                     "visible_on_add": false,
                     "visible_in_chooser": true
-                },
-                {
-                    "column": "description",
-                    "name": "Description",
-                    "visible_on_add": false,
-                    "visible_in_chooser": true
                 }
             ],
             "properties": {
                 "part_id": "part_id",
                 "Value": "value",
-                "footprint": "footprint",
-                "mfg": "mfg",
-                "package": "package",
                 "symbol": "symbol",
-                "description": "description"
+                "footprint": "footprint",
+                "description": "description",
+                "mfg": "mfg",
+                "mpn": "mpn",
+                "lcsc": "lcsc",
+                "rating": "rating",
+                "package": "package"
             }
         },
         {

@@ -1,7 +1,6 @@
-# Ignore the generated binary database
-# Since you generate this from CSVs, you don't need to version control the binary
 *.db
 *.sqlite
+*.zip
 
 # Ignore KiCad temporary files and backups
 *.lck
@@ -9,7 +8,7 @@
 *.kicad_prl
 fp-info-cache
 
-# Python cache (created by your script)
+# Python cache
 __pycache__/
 *.pyc
 
