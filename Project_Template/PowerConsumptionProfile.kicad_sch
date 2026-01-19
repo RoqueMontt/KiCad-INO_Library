@@ -11,35 +11,89 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols)
-	(text "Component	|	Min@3V3	|	Max@3V3	\n------------------------------------------------------------\nComponent 1	|	xx nA		|	xx nA\nComponent 2	|	xx uA		|	xx uA\n"
+	(rectangle
+		(start 159.004 52.07)
+		(end 265.684 109.22)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 121e445c-4fb4-4b13-8db2-5a15b39b1f73)
+	)
+	(rectangle
+		(start 25.4 124.46)
+		(end 132.08 181.61)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 31de6e55-86f9-486c-a728-1a34a8cd6d5c)
+	)
+	(rectangle
+		(start 158.75 125.73)
+		(end 265.43 162.56)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3e4c9119-09e3-42f9-a071-c79c30590092)
+	)
+	(rectangle
+		(start 25.654 50.8)
+		(end 132.334 107.95)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6f420571-3ce1-42cd-a8d1-5f8ea16c63fd)
+	)
+	(text "Bring-Up Procedure"
 		(exclude_from_sim no)
-		(at 30.226 112.014 0)
+		(at 26.67 48.26 0)
 		(effects
 			(font
 				(face "Agency FB")
-				(size 3.81 3.81)
-				(color 51 57 118 1)
+				(size 5 5)
+				(bold yes)
+				(color 162 38 43 0.9411764706)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "17788164-fb4d-44a2-b50b-28b06c25dbaf")
+		(uuid "20694983-2c8f-43a7-a67d-29cbfcc92da7")
 	)
-	(text "Total			|	xx.xx mA	|	xx.xx mA\n------------------------------------------------------------\nEfficiency		|	xx%		|	xx%\n\nReal			|	xx.xx mA	|	xx.xx mA\nConsumption"
+	(text "Power Consumption Estimation"
 		(exclude_from_sim no)
-		(at 153.924 112.776 0)
+		(at 160.02 49.53 0)
 		(effects
 			(font
 				(face "Agency FB")
-				(size 3.81 3.81)
-				(color 51 57 118 1)
+				(size 5 5)
+				(bold yes)
+				(color 162 38 43 0.9411764706)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "5c5d7950-86d4-4f7a-bb54-479cf0808a31")
+		(uuid "2299edc0-5538-4436-b892-5a6ed29a13ce")
 	)
-	(text "POWER CONSUMPTION PROFILE"
+	(text "SYSTEM VALIDATION"
 		(exclude_from_sim no)
-		(at 93.726 31.496 0)
+		(at 116.332 32.004 0)
 		(effects
 			(font
 				(face "Agency FB")
@@ -51,5 +105,33 @@
 			(justify left bottom)
 		)
 		(uuid "7e882f1b-d0cc-4573-92a3-f932f531edfa")
+	)
+	(text "Voltage Rail Checklist"
+		(exclude_from_sim no)
+		(at 26.416 121.92 0)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 5 5)
+				(bold yes)
+				(color 162 38 43 0.9411764706)
+			)
+			(justify left bottom)
+		)
+		(uuid "bfc45913-4fa8-40c4-985b-472a4cea8557")
+	)
+	(text "Extra Notes"
+		(exclude_from_sim no)
+		(at 159.766 123.19 0)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 5 5)
+				(bold yes)
+				(color 162 38 43 0.9411764706)
+			)
+			(justify left bottom)
+		)
+		(uuid "f567c871-6fe7-460d-950e-d136601afe09")
 	)
 )

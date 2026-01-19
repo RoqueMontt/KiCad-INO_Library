@@ -1,0 +1,9 @@
+# KiCad Standard Ignore
+*.kicad_prl
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+*.net
+fp-info-cache
+backup/
+_autosave-*
