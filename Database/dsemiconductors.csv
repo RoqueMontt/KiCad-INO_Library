@@ -1,0 +1,4 @@
+part_id,value,symbol,footprint,description,mfg,mpn,rating,package
+SEM-001,1N4148WT,INO_Symbols:D,INO_Footprints:D_SOD-523,Diode Independent 75V 150mA Surface Mount SOD-523,JSMSEMI,1N4148WT,75V 150mA,SOD-523
+SEM-002,CUS10S30,INO_Symbols:D,INO_Footprints:D_SOD-323,Diode 30V 1A Surface Mount SC-76(SOD-323),TOSHIBA,"CUS10S30,H3F",30V 1A,SOD-323
+SEM-003,DMN3016LFDE,INO_Symbols:DMN3016LFDE-7,INO_Footprints:DMN3016LFDE-7,N-Channel 30V 10A 0.73W Surface Mount UDFN2020-6,DIODES,DMN3016LFDE-7,30V 10A,UDFN2020-6

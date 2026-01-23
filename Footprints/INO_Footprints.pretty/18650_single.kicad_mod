@@ -1,0 +1,193 @@
+(footprint "18650_single"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Battery holder, MPD BK-18650, battery type 1x18650, https://www.batteryholders.com/uploads/parts/BK-18650-PC2/datasheets/BK-18650-PC2-datasheet.pdf, generated with kicad-footprint-generator StandardBox_generator.py")
+	(tags "horizontal single")
+	(property "Reference" "REF**"
+		(at 36.25 -11.94 0)
+		(layer "F.SilkS")
+		(uuid "fec9d9ed-234e-4614-b93a-6d683b9173be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "18650_single"
+		(at 36.25 11.94 0)
+		(layer "F.Fab")
+		(uuid "16cecb03-6360-49e4-a2fa-9c7851411034")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22272bdd-7e43-47a7-9b7b-4d608a6b72f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a511a21e-d505-4f72-8d7a-0239bbcfb2dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.84 -11.1)
+		(end 75.34 -11.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "920173a2-ffa5-487c-96b4-52cffa06e404")
+	)
+	(fp_line
+		(start -2.84 11.1)
+		(end -2.84 -11.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "32dcf1dd-dd7a-4797-b996-2a2517c5e43d")
+	)
+	(fp_line
+		(start 75.34 -11.1)
+		(end 75.34 11.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5460fbd3-c67a-40fb-bfbb-0d1b4cd3dd18")
+	)
+	(fp_line
+		(start 75.34 11.1)
+		(end -2.84 11.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76002605-88ec-4eee-9128-b4bc2be6cd95")
+	)
+	(fp_rect
+		(start -2.98 -11.24)
+		(end 75.48 11.24)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "365b02b6-5ef1-4910-b9d3-a3547f044572")
+	)
+	(fp_rect
+		(start -2.23 -10.49)
+		(end 74.73 10.49)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f660ca91-45aa-4940-b134-d116e7591a56")
+	)
+	(fp_text user "+"
+		(at -4.5 0.05 0)
+		(layer "F.SilkS")
+		(uuid "eba832ce-ea0f-4b4d-839a-7c3881a688e3")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 36.25 0 0)
+		(layer "F.Fab")
+		(uuid "1604c8d0-d9f6-494c-a365-f97e656865d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at 4 -0.2 0)
+		(layer "F.Fab")
+		(uuid "f3beb970-7d7b-4d2d-80d4-3f13d50a2cc3")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 8.445 0)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "02709987-3c07-4fee-8654-e78c1e29f893")
+	)
+	(pad "" np_thru_hole circle
+		(at 64.055 0)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "2351992f-5821-4124-8a92-974b73ec86c5")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 3 3)
+		(drill 1.57)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.083333)
+		(uuid "41fe7183-4b22-4946-bb83-74daf73a69be")
+	)
+	(pad "2" thru_hole circle
+		(at 72.9 0)
+		(size 3 3)
+		(drill 1.57)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2fc83da7-a6fb-47a7-a0cb-9ddac2df4b91")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_MPD_BK-18650-PC2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

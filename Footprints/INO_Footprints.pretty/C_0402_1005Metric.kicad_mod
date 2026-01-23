@@ -178,7 +178,7 @@
 		(uuid "10a39a7b-0a75-4620-b923-d727e15c6b91")
 	)
 	(embedded_fonts no)
-	(model "${INO_LIB}/3D_Models/Capacitors/C_0402_1005Metric.step"
+	(model "C:/INO_Master_Library/3D_Models/Capacitors/C_0402_1005Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)

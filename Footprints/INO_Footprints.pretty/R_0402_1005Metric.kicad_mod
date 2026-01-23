@@ -178,7 +178,7 @@
 		(uuid "02faf152-eab8-437a-9f9d-ef1c5ddab6bc")
 	)
 	(embedded_fonts no)
-	(model "${INO_LIB}/3D_Models/Resistors/R_0402_1005Metric.step"
+	(model "C:/INO_Master_Library/3D_Models/Resistors/R_0402_1005Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)

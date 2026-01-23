@@ -1,13 +1,13 @@
-(footprint "SMD-4P,1.5x1.5mm"
+(footprint "LED_SMD-4P,2.1x2.1mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "122bc975-35e6-48e4-8c43-9242c306e788")
+		(uuid "3630a53f-bc11-4b33-a191-14dc070206b7")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "SMD-4P,1.5x1.5mm"
+	(property "Value" "LED_SMD-4P,2.1x2.1mm"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "0baa1fba-4ec7-4749-be47-4b2d1de35bb4")
+		(uuid "53e5647a-d55b-4740-846d-e25d77ccb37e")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9a0b7451-3b8a-47ee-bbff-d336c9067091")
+		(uuid "3a5bd1b2-9cfa-411c-829d-fcd941dc1903")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "eb07abaa-5a73-4116-91ef-1c5cee27c4fb")
+		(uuid "884ef21e-c4a0-48a2-b30a-58815cb07a31")
 		(effects
 			(font
 				(size 1 1)
@@ -55,52 +55,52 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.2 0.4)
-		(end -1.2 1.2)
+		(start -1.2 -1)
+		(end 1.1 -1)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "fd598908-5175-448c-a0e7-d0807096272c")
+		(uuid "75044a03-597b-4c11-817d-e0b3098a30c3")
 	)
 	(fp_line
-		(start -1.2 1.2)
-		(end -0.4 1.2)
+		(start -1.2 1.1)
+		(end 1.1 1.1)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "647d35cf-ef82-4a0e-b145-fde88b662ebe")
+		(uuid "036b190d-f230-49e8-af66-60f425100bb7")
 	)
-	(fp_rect
-		(start -0.925 -0.925)
-		(end 0.925 0.925)
+	(fp_circle
+		(center 1.5 1.2)
+		(end 1.6 1.2)
 		(stroke
-			(width 0.1)
+			(width 0.2)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "35cd815b-7356-4875-84f2-ff899b906f15")
+		(uuid "dda8297e-cf7a-4307-8eac-6f0755df3087")
 	)
 	(fp_rect
-		(start -1 -1)
-		(end 1 1)
+		(start -1.25 -1.25)
+		(end 1.25 1.25)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "d24c3a4c-0af3-40b1-9a38-9a7ce0c27458")
+		(uuid "b01df239-c9fa-4e26-8ae1-8713cd402fe8")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "3cfdcd78-e3b5-45c7-ab16-dc94b6866b87")
+		(uuid "9a50aab6-9710-4f6b-a798-5bc020d77da4")
 		(effects
 			(font
 				(size 1 1)
@@ -109,47 +109,32 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -0.5 0.5)
-		(size 0.5 0.5)
+		(at 0.8 0.6)
+		(size 0.8 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
-		(thermal_bridge_angle 45)
-		(uuid "559cac3f-38af-4610-afb6-582922683336")
+		(roundrect_rratio 0.15)
+		(uuid "161d7b6a-df0e-4310-a13a-bc341f4779d4")
 	)
 	(pad "2" smd roundrect
-		(at -0.5 -0.5)
-		(size 0.5 0.5)
+		(at -0.9 0.6)
+		(size 0.8 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
-		(thermal_bridge_angle 45)
-		(uuid "fc474464-28a1-4d6d-8386-0fc8c1d6c8a9")
+		(roundrect_rratio 0.15)
+		(uuid "7f1af05e-539e-4877-9fd2-dc933721d5dc")
 	)
 	(pad "3" smd roundrect
-		(at 0.5 -0.5)
-		(size 0.5 0.5)
+		(at -0.9 -0.5)
+		(size 0.8 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
-		(thermal_bridge_angle 45)
-		(uuid "5ed9996f-bddd-484c-8be6-bee8b19a93d8")
+		(roundrect_rratio 0.15)
+		(uuid "43d5460a-9e09-48a1-a5a8-3920567e83b3")
 	)
 	(pad "4" smd roundrect
-		(at 0.5 0.5)
-		(size 0.5 0.5)
+		(at 0.8 -0.5)
+		(size 0.8 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
-		(thermal_bridge_angle 45)
-		(uuid "f2df7989-6cf1-4361-bd50-7134da222927")
+		(roundrect_rratio 0.15)
+		(uuid "225b1df2-f839-4d64-bb33-05430e320180")
 	)
 	(embedded_fonts no)
-	(model "${INO_LIB}/3D_Models/LED/MEIHUA_MHP1515.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )

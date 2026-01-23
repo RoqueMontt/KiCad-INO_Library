@@ -84,6 +84,104 @@
             }
         },
         {
+            "name": "Connectors",
+            "table": "connectors",
+            "key": "part_id",
+            "symbols": "symbol",
+            "footprints": "footprint",
+            "fields": [
+                {
+                    "column": "value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "description",
+                    "name": "Description",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "mfg",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "mpn",
+                    "name": "MPN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                }
+            ],
+            "properties": {
+                "part_id": "part_id",
+                "Value": "value",
+                "symbol": "symbol",
+                "footprint": "footprint",
+                "description": "description",
+                "mfg": "mfg",
+                "mpn": "mpn"
+            }
+        },
+        {
+            "name": "Dsemiconductors",
+            "table": "dsemiconductors",
+            "key": "part_id",
+            "symbols": "symbol",
+            "footprints": "footprint",
+            "fields": [
+                {
+                    "column": "value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "description",
+                    "name": "Description",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "mfg",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "mpn",
+                    "name": "MPN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "rating",
+                    "name": "Rating",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                }
+            ],
+            "properties": {
+                "part_id": "part_id",
+                "Value": "value",
+                "symbol": "symbol",
+                "footprint": "footprint",
+                "description": "description",
+                "mfg": "mfg",
+                "mpn": "mpn",
+                "rating": "rating",
+                "package": "package"
+            }
+        },
+        {
             "name": "Ics",
             "table": "ics",
             "key": "part_id",
@@ -113,12 +211,6 @@
                     "name": "MPN",
                     "visible_on_add": false,
                     "visible_in_chooser": true
-                },
-                {
-                    "column": "lcsc",
-                    "name": "LCSC",
-                    "visible_on_add": false,
-                    "visible_in_chooser": true
                 }
             ],
             "properties": {
@@ -128,13 +220,12 @@
                 "footprint": "footprint",
                 "description": "description",
                 "mfg": "mfg",
-                "mpn": "mpn",
-                "lcsc": "lcsc"
+                "mpn": "mpn"
             }
         },
         {
-            "name": "Mcu",
-            "table": "mcu",
+            "name": "Inductors",
+            "table": "inductors",
             "key": "part_id",
             "symbols": "symbol",
             "footprints": "footprint",
@@ -164,8 +255,14 @@
                     "visible_in_chooser": true
                 },
                 {
-                    "column": "lcsc",
-                    "name": "LCSC",
+                    "column": "rating",
+                    "name": "Rating",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "package",
+                    "name": "Package",
                     "visible_on_add": false,
                     "visible_in_chooser": true
                 }
@@ -178,7 +275,57 @@
                 "description": "description",
                 "mfg": "mfg",
                 "mpn": "mpn",
-                "lcsc": "lcsc"
+                "rating": "rating",
+                "package": "package"
+            }
+        },
+        {
+            "name": "Leds",
+            "table": "leds",
+            "key": "part_id",
+            "symbols": "symbol",
+            "footprints": "footprint",
+            "fields": [
+                {
+                    "column": "value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "description",
+                    "name": "Description",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "mfg",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "mpn",
+                    "name": "MPN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                }
+            ],
+            "properties": {
+                "part_id": "part_id",
+                "Value": "value",
+                "symbol": "symbol",
+                "footprint": "footprint",
+                "description": "description",
+                "mfg": "mfg",
+                "mpn": "mpn",
+                "package": "package"
             }
         },
         {
@@ -238,55 +385,6 @@
             }
         },
         {
-            "name": "Reg",
-            "table": "reg",
-            "key": "part_id",
-            "symbols": "symbol",
-            "footprints": "footprint",
-            "fields": [
-                {
-                    "column": "value",
-                    "name": "Value",
-                    "visible_on_add": true,
-                    "visible_in_chooser": true
-                },
-                {
-                    "column": "description",
-                    "name": "Description",
-                    "visible_on_add": false,
-                    "visible_in_chooser": true
-                },
-                {
-                    "column": "mfg",
-                    "name": "Manufacturer",
-                    "visible_on_add": false,
-                    "visible_in_chooser": true
-                },
-                {
-                    "column": "mpn",
-                    "name": "MPN",
-                    "visible_on_add": false,
-                    "visible_in_chooser": true
-                },
-                {
-                    "column": "lcsc",
-                    "name": "LCSC",
-                    "visible_on_add": false,
-                    "visible_in_chooser": true
-                }
-            ],
-            "properties": {
-                "part_id": "part_id",
-                "Value": "value",
-                "symbol": "symbol",
-                "footprint": "footprint",
-                "description": "description",
-                "mfg": "mfg",
-                "mpn": "mpn",
-                "lcsc": "lcsc"
-            }
-        },
-        {
             "name": "Resistors",
             "table": "resistors",
             "key": "part_id",
@@ -318,12 +416,6 @@
                     "visible_in_chooser": true
                 },
                 {
-                    "column": "lcsc",
-                    "name": "LCSC",
-                    "visible_on_add": false,
-                    "visible_in_chooser": true
-                },
-                {
                     "column": "rating",
                     "name": "Rating",
                     "visible_on_add": true,
@@ -344,7 +436,6 @@
                 "description": "description",
                 "mfg": "mfg",
                 "mpn": "mpn",
-                "lcsc": "lcsc",
                 "rating": "rating",
                 "package": "package"
             }

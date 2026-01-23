@@ -1,4 +1,4 @@
-(footprint "REG_TPS65185"
+(footprint "TPS65185"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -188,6 +188,17 @@
 		(fill yes)
 		(layer "F.Paste")
 		(uuid "a0873cd0-82b9-455c-9b58-f94517a27a4a")
+	)
+	(fp_rect
+		(start -6 -6)
+		(end 6 6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "d80317bc-02d2-4f2f-84ac-202b87ce3570")
 	)
 	(fp_line
 		(start -4.115 -4.115)
@@ -672,7 +683,7 @@
 		(uuid "22f06b68-2f19-45e4-b0ac-5e7308a51445")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/Mi Lap/Desktop/HAL-X01/HAL-X01 R3.0.0/lib/3D models/IC_TI_TPS65185RGZR.step"
+	(model "C:/INO_Master_Library/3D_Models/ICS/TPS65185RGZR.step"
 		(offset
 			(xyz 0 0 0)
 		)

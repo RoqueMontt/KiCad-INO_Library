@@ -409,7 +409,7 @@
 		(uuid "93222a9d-3415-4de5-be93-80c6cf8b52c7")
 	)
 	(embedded_fonts no)
-	(model "${INO_LIB}/3D_Models/Capacitors/CP_Elec_6.3x5.8.step"
+	(model "C:/INO_Master_Library/3D_Models/Capacitors/CP_Elec_6.3x5.8.step"
 		(offset
 			(xyz 0 0 0)
 		)

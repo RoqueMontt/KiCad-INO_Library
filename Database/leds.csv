@@ -1,0 +1,3 @@
+part_id,value,symbol,footprint,description,mfg,mpn,package
+LED-001,RED,INO_Symbols:LED,INO_Footprints:LED_0402_1005Metric,Red LED Indication - Discrete 1.8V 0402,ROHM,SML-P11VTT86R,402
+LED-002,RGB,INO_Symbols:LED_ABGR,"INO_Footprints:LED_SMD-4P,2.1x2.1mm","SMD-4P,2.1x2.1mm LED Indication - Discrete RoHS",XINGLIGHT,XL-B2020RGBA-HF,"SMD-4P,2121"

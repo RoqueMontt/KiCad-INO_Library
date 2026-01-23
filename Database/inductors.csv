@@ -1,0 +1,3 @@
+part_id,value,symbol,footprint,description,mfg,mpn,rating,package
+IND-001,2u2,INO_Symbols:L,INO_Footprints:L_303020,"4.7A 2.2uH 6A 37mΩ ±20% SMD,3x3mm Fixed Inductors RoHS",cjiang,FTC303020D2R2MBCA,4.7A 37mΩ,303020
+IND-002,4u7,INO_Symbols:L,INO_Footprints:L_303020,"4.2A 4.7uH 4.8A 60mΩ ±20% SMD,3x3mm Fixed Inductors RoHS",cjiang,FTC303020D4R7MBCA,4.2A 60mΩ,303020

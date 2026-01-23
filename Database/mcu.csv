@@ -1,3 +1,0 @@
-part_id,value,symbol,footprint,description,mfg,mpn,lcsc
-MCU-001,STM32G0B1CEU6,INO_Symbols:STM32G0B1CEUx,Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm,ARM Cortex-M0+ 32 Bit 64MHz 44 UFQFPN-48(7x7) Microcontrollers RoHS,ST,STM32G0B1CEU6,C2829190
-MCU-002,RP2040,INO_Symbols:RP2040,Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm,133MHz 30 LQFN-56(7x7) Microcontrollers RoHS,Raspberry Pi,RP2040,C2040

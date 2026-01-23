@@ -1,2 +1,7 @@
-part_id,value,symbol,footprint,description,mfg,mpn,lcsc
-IC-001,TLV761,INO_Symbols:TLV761,INO_Footprints:SOT-223-3_TabPin2,LDO HV,TI,Mpn-tlv,123
+part_id,value,symbol,footprint,description,mfg,mpn
+ICS-001,STM32G0B1CEU6,INO_Symbols:STM32G0B1CEUx,Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm,ARM Cortex-M0+ 32 Bit 64MHz 44 UFQFPN-48(7x7) Microcontrollers RoHS,ST,STM32G0B1CEU6
+ICS-002,RP2040,INO_Symbols:RP2040,INO_Footprints:RP2040,133MHz 30 LQFN-56(7x7) Microcontrollers RoHS,Raspberry Pi,RP2040
+ICS-003,BQ25798,INO_Symbols:BQ25798,INO_Footprints:BQ25798,Battery Charging IC Lithium Battery QFN-29(4x4),TI,BQ25798RQMR
+ICS-004,INA219,INO_Symbols:INA219,INO_Footprints:INA219,300mV~26V 10uV 20uA SOT-23-8 Current Regulation/Management RoHS,TI,INA219AIDCNR
+ICS-005,TLV76701,INO_Symbols:TLV76701,INO_Footprints:TLV76701,Linear Voltage Regulator IC Positive Fixed 1 Output 1A WSON-6-EP(2x2),TI,TLV76701DRVR
+ICS-006,TPS65185,INO_Symbols:TPS65185,INO_Footprints:TPS65185,VQFN-48-EP(6x6) Power Management - Specialized RoHS,TI,TPS65185RSLR
